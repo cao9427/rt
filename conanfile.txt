@@ -1,0 +1,6 @@
+[requires]
+jsonformoderncpp/2.1.1@vthiery/stable
+Pugixml/1.7@AlbanSeurat/testing
+
+[generators]
+qmake

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Login.js</file>
+    </qresource>
+</RCC>

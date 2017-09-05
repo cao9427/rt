@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>test.qml</file>
+        <file>ContextComponent.qml</file>
+        <file>ApplicationContext.qml</file>
+        <file>qmldir</file>
+        <file>ThemeManager.qml</file>
+        <file>components/RT_ToolBar.qml</file>
+        <file>components/toolbar/NavigatorMenu.qml</file>
+        <file>components/RT_StatusBar.qml</file>
+    </qresource>
+</RCC>

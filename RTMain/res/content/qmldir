@@ -1,0 +1,4 @@
+singleton ThemeManager          0.1 ThemeManager.qml
+singleton ApplicationContext    0.1 ApplicationContext.qml
+
+

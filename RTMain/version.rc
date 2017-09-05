@@ -1,0 +1,45 @@
+#ifdef WANGLI
+#include "../MultiVerRes/wanglirc/version_win_GBK.h"
+IDI_ICON1     ICON    DISCARDABLE     "../MultiVerRes/wanglirc/images/src.ico"
+#elif defined QIMINGXING
+#include "../MultiVerRes/qimingxingrc/version_win_GBK.h"
+IDI_ICON1     ICON    DISCARDABLE     "../MultiVerRes/qimingxingrc/images/src.ico"
+#endif
+
+#if defined(UNDER_CE)
+#include <winbase.h>
+#else
+#include <winver.h>
+#endif
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION FILE_VERSION
+    PRODUCTVERSION FILE_VERSION
+    FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+    FILEFLAGS VS_FF_DEBUG
+#else
+    FILEFLAGS 0x0L
+#endif
+    FILEOS VOS__WINDOWS32
+    FILETYPE VFT_DLL
+    FILESUBTYPE 0x0L
+    BEGIN
+        BLOCK "StringFileInfo"
+        BEGIN
+            BLOCK "080404b0"
+            BEGIN
+                VALUE "CompanyName", COMPANY_NAME
+                VALUE "FileDescription", FILE_DESCRIPTION
+                VALUE "FileVersion", FILE_VERSION_STR
+                VALUE "InternalName", ORIGINAL_FILE_NAME
+                VALUE "LegalCopyright", COPYRIGHT
+                VALUE "OriginalFilename", ORIGINAL_FILE_NAME
+                VALUE "ProductName", PRODUCT_NAME
+                VALUE "ProductVersion", FILE_VERSION
+            END
+        END
+        BLOCK "VarFileInfo"
+        BEGIN
+            VALUE "Translation", 0x804, 1200
+        END
+    END

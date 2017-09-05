@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>components/LoginSettings.qml</file>
+        <file>components/ForgetPS.qml</file>
+        <file>Login.qml</file>
+    </qresource>
+</RCC>

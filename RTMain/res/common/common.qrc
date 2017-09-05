@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>controls/DatePicker.qml</file>
+        <file>controls/LoginSettings.qml</file>
+        <file>controls/RT_Button.qml</file>
+        <file>controls/RT_CheckBox.qml</file>
+        <file>controls/RT_Combobox.qml</file>
+        <file>controls/RT_Diago.qml</file>
+        <file>controls/RT_ImageButton.qml</file>
+        <file>controls/RT_RadioButton.qml</file>
+        <file>controls/RT_TextInput.qml</file>
+        <file>controls/RT_Toast.qml</file>
+        <file>fonts/iconfont.ttf</file>
+        <file>themes/Dark.qml</file>
+        <file>themes/Light.qml</file>
+        <file>themes/qmldir</file>
+        <file>data/DataInteration.qml</file>
+        <file>data/qmldir</file>
+        <file>controls/IconButton.qml</file>
+        <file>controls/RT__Button.qml</file>
+    </qresource>
+</RCC>
